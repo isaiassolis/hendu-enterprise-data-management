@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Enterprise%20Software-Oil%20%26%20Gas-087F8C?style=for-the-badge" alt="Enterprise software for Oil & Gas" />
   <img src="https://img.shields.io/badge/ASP.NET-MVC-12395D?style=for-the-badge" alt="ASP.NET MVC" />
   <img src="https://img.shields.io/badge/Entity-Framework-0B91A1?style=for-the-badge" alt="Entity Framework" />
-  <img src="https://img.shields.io/badge/SQL-Server-12395D?style=for-the-badge" alt="SQL Server" />
+  <img src="https://img.shields.io/badge/PostgreSQL%20%2B%20PostGIS-12395D?style=for-the-badge" alt="PostgreSQL + PostGIS" />
   <img src="https://img.shields.io/badge/Microsoft-Azure-087F8C?style=for-the-badge" alt="Microsoft Azure" />
 </p>
 
@@ -16,7 +16,7 @@
 
 Durante mi etapa como **Gerente Técnico** de Plenumsoft Energy & Sustainability, **dirigí el desarrollo integral de HENDU y al equipo encargado de construirlo**. HENDU fue concebido como una plataforma empresarial para centralizar y administrar información técnica, conocimiento y procesos especializados de la industria **Oil & Gas**.
 
-Construimos el producto con tecnologías del ecosistema Microsoft: **ASP.NET MVC, C#/.NET, Entity Framework y SQL Server**, con despliegue en **Microsoft Azure**. En esa etapa, la organización era **Microsoft Partner**.
+Construimos el producto con tecnologías del ecosistema Microsoft: **ASP.NET MVC, C#/.NET, Entity Framework y PostgreSQL + PostGIS**, con despliegue en **Microsoft Azure**. En esa etapa, la organización era **Microsoft Partner**.
 
 > **Caso de estudio profesional.** Este repositorio documenta mi experiencia de dirección tecnológica y las capacidades descritas en material comercial histórico. **No contiene el código fuente de HENDU, datos de clientes, credenciales ni arquitectura interna propietaria.**
 
@@ -57,7 +57,7 @@ La propuesta comercial de HENDU incluía módulos especializados —denominados 
 | :--- | :--- |
 | Plataforma de aplicación | **ASP.NET MVC / C# / .NET** |
 | Acceso y persistencia de datos | **Entity Framework** |
-| Base de datos | **Microsoft SQL Server** |
+| Base de datos | **Microsoft PostgreSQL + PostGIS** |
 | Infraestructura de despliegue | **Microsoft Azure** |
 | Ecosistema de desarrollo | Organización **Microsoft Partner** durante el proyecto |
 
