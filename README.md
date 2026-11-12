@@ -26,23 +26,18 @@ En la industria energética, la información de activos, pozos, operaciones y ob
 
 Las siguientes imágenes corresponden a interfaces históricas de HENDU y se incluyen para documentar las capacidades del producto. No constituyen una demostración activa ni implican disponibilidad del software.
 
-### Gestión documental vinculada a pozos
-
-![HENDU — administración de archivos asociados a pozos](assets/screenshots/hendu1.png)
-
-*Interfaz de consulta y administración de documentos vinculados con información técnica de pozos.*
 
 ### Visualización geoespacial (GIS)
-
-![HENDU — visualización GIS de pozos y estado de captura](assets/screenshots/hendu2.png)
-
+![HENDU — visualización GIS de pozos y estado de captura](assets/screenshots/hendu1.png)
 *Vista cartográfica de activos con filtros de búsqueda e indicadores operativos.*
 
 ### Acceso a la plataforma
-
-![HENDU — pantalla histórica de acceso](assets/screenshots/hendu3.png)
-
+![HENDU — pantalla histórica de acceso](assets/screenshots/hendu2.png)
 *Presentación visual del acceso a HENDU en su interfaz histórica.*
+
+### Gestión documental vinculada a pozos
+![HENDU — administración de archivos asociados a pozos](assets/screenshots/hendu3.png)
+*Interfaz de consulta y administración de documentos vinculados con información técnica de pozos.*
 
 > **Nota:** Material visual histórico compartido con fines de portafolio profesional. HENDU y sus materiales originales son propiedad de Plenumsoft Energy & Sustainability.
 
