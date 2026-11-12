@@ -22,6 +22,30 @@ Construimos HENDU con **ASP.NET MVC, C#/.NET y Entity Framework**, utilizando **
 
 En la industria energética, la información de activos, pozos, operaciones y obligaciones regulatorias puede encontrarse distribuida entre diferentes equipos y sistemas. HENDU buscó facilitar su **consulta, organización y administración en un entorno compartido**, además de permitir que funciones especializadas complementaran el núcleo de la plataforma.
 
+## 📸 Evidencia visual del producto
+
+Las siguientes imágenes corresponden a interfaces históricas de HENDU y se incluyen para documentar las capacidades del producto. No constituyen una demostración activa ni implican disponibilidad del software.
+
+### Gestión documental vinculada a pozos
+
+![HENDU — administración de archivos asociados a pozos](assets/screenshots/hendu1.png)
+
+*Interfaz de consulta y administración de documentos vinculados con información técnica de pozos.*
+
+### Visualización geoespacial (GIS)
+
+![HENDU — visualización GIS de pozos y estado de captura](assets/screenshots/hendu2.png)
+
+*Vista cartográfica de activos con filtros de búsqueda e indicadores operativos.*
+
+### Acceso a la plataforma
+
+![HENDU — pantalla histórica de acceso](assets/screenshots/hendu3.png)
+
+*Presentación visual del acceso a HENDU en su interfaz histórica.*
+
+> **Nota:** Material visual histórico compartido con fines de portafolio profesional. HENDU y sus materiales originales son propiedad de Plenumsoft Energy & Sustainability.
+
 ## 🧩 El producto
 
 HENDU integraba herramientas para administrar información técnica y conocimiento en la industria **Oil & Gas**. Entre sus capacidades se encontraban:
