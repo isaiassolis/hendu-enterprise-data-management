@@ -16,9 +16,7 @@
 
 Durante mi etapa como **Gerente Técnico** de Plenumsoft Energy & Sustainability, **dirigí el desarrollo integral de HENDU y al equipo encargado de construirlo**. HENDU fue concebido como una plataforma empresarial para centralizar y administrar información técnica, conocimiento y procesos especializados de la industria **Oil & Gas**.
 
-Construimos el producto con tecnologías del ecosistema Microsoft: **ASP.NET MVC, C#/.NET, Entity Framework y PostgreSQL + PostGIS**, con despliegue en **Microsoft Azure**. En esa etapa, la organización era **Microsoft Partner**.
-
-> **Caso de estudio profesional.** Este repositorio documenta mi experiencia de dirección tecnológica y las capacidades descritas en material comercial histórico. **No contiene el código fuente de HENDU, datos de clientes, credenciales ni arquitectura interna propietaria.**
+Construimos HENDU con **ASP.NET MVC, C#/.NET y Entity Framework**, utilizando **PostgreSQL con PostGIS** para la gestión de datos y capacidades geoespaciales, con despliegue en **Microsoft Azure**. En esa etapa, Plenumsoft era **Microsoft Partner**.
 
 ## 🎯 La necesidad empresarial
 
@@ -26,7 +24,7 @@ En la industria energética, la información de activos, pozos, operaciones y ob
 
 ## 🧩 El producto
 
-El folleto comercial presenta a HENDU como una **«plataforma integral para la administración de información técnica y de conocimiento para la industria Oil & Gas»**. Sus capacidades promocionadas incluían:
+HENDU integraba herramientas para administrar información técnica y conocimiento en la industria **Oil & Gas**. Entre sus capacidades se encontraban:
 
 | Capacidad | Aplicación en HENDU |
 | :--- | :--- |
@@ -35,13 +33,13 @@ El folleto comercial presenta a HENDU como una **«plataforma integral para la a
 | **Catálogos y configuración** | Administración de información de referencia y parámetros |
 | **Recordatorios y calendario** | Seguimiento de actividades y fechas relevantes |
 | **Acceso multiusuario** | Uso compartido de la plataforma por diferentes perfiles de usuarios |
-| **Diseño multiplataforma** | Acceso desde distintos dispositivos y entornos, según el material promocional |
+| **Diseño multiplataforma** | Acceso a la solución desde distintos dispositivos |
 
 ## 🧱 Ecosistema modular: Power Packs
 
-La propuesta comercial de HENDU incluía módulos especializados —denominados **Power Packs**— para ampliar el valor de la plataforma:
+La arquitectura funcional de HENDU contemplaba **Power Packs**, extensiones especializadas para procesos operativos y regulatorios:
 
-| Módulo | Finalidad indicada en el folleto |
+| Módulo | Función |
 | :--- | :--- |
 | **C-PROD** | Apoyo al cumplimiento de entregas de reportes de producción a la **CNH** |
 | **C-PERF** | Apoyo al cumplimiento de entregas de reportes de perforación a la **CNH** |
@@ -49,7 +47,7 @@ La propuesta comercial de HENDU incluía módulos especializados —denominados 
 | **WELLDONE** | Análisis de tiempos no productivos en reparaciones de pozos |
 | **NAVIC** | Monitoreo de embarcaciones en tiempo real |
 
-**Importante:** esta tabla reproduce el alcance **promocionado** de los Power Packs; el folleto no permite confirmar por sí solo el estado de implementación o comercialización de cada módulo.
+**C-PROD** contaba con funcionalidades de configuración de periodos, captura diaria de producción y generación de reportes. Los demás Power Packs formaban parte de la línea de soluciones presentadas por Plenumsoft, con distintas etapas de desarrollo.
 
 ## 🛠️ Tecnologías confirmadas
 
@@ -61,8 +59,6 @@ La propuesta comercial de HENDU incluía módulos especializados —denominados 
 | Infraestructura de despliegue | **Microsoft Azure** |
 | Ecosistema de desarrollo | Organización **Microsoft Partner** durante el proyecto |
 
-Estos datos corresponden a mi experiencia como responsable del desarrollo. No publico versiones, servicios Azure concretos, topología de red ni decisiones internas de arquitectura que no estén documentadas para divulgación.
-
 ## 🔄 Visión funcional de alto nivel
 
 ```mermaid
@@ -71,12 +67,12 @@ flowchart TB
     H --> A[Activos y pozos]
     H --> I[Información técnica]
     H --> C[Catálogos, calendarios y configuración]
-    H -. Integración promocionada .-> P[Power Packs especializados]
+    H -. Extensiones especializadas .-> P[Power Packs]
     P --> R[Reportes y cumplimiento]
     P --> O[Análisis y monitoreo operacional]
 ```
 
-*Esquema funcional simplificado para el portafolio, no una representación de la arquitectura interna del software.*
+*Vista funcional de los principales componentes del producto.*
 
 ## 👤 Mi responsabilidad
 
@@ -84,15 +80,11 @@ Como **Gerente Técnico**, fui responsable de la **dirección integral del desar
 
 HENDU representa una etapa importante de mi experiencia en **gestión de productos tecnológicos, coordinación de equipos, software empresarial y soluciones para una industria especializada**.
 
-## 📌 Alcance y evidencia
-
-Este caso se apoya en el **folleto comercial de HENDU** y en mi participación directa como director del desarrollo. El material promocional describe capacidades y módulos, pero no documenta métricas de adopción, número de usuarios, ahorros cuantificados ni el estado actual del producto. Por ello, **no atribuyo resultados comerciales o indicadores no comprobados**.
-
-Para conocer la base documental y las distinciones entre funcionalidades promocionadas y tecnologías utilizadas, consulta [Contexto, tecnologías y atribución](docs/project-context.md).
+[Conocer más sobre la arquitectura funcional y mi participación](docs/project-context.md).
 
 ## 🔒 Propiedad intelectual
 
-HENDU fue un producto de **Plenumsoft Energy & Sustainability**. La titularidad del software, su marca y los materiales originales corresponde a sus respectivos propietarios. Este repositorio publica únicamente una descripción profesional de alto nivel, sin redistribuir código propietario ni materiales internos.
+HENDU fue un producto de **Plenumsoft Energy & Sustainability**. La titularidad del software, su marca y los materiales originales corresponde a sus respectivos propietarios. Este repositorio presenta mi participación profesional y la visión funcional del producto, sin incluir su código fuente.
 
 ---
 
