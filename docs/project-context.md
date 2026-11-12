@@ -1,46 +1,42 @@
-# HENDU: contexto, tecnologías y atribución
+# HENDU — Producto, tecnología y liderazgo
 
-## Mi función
+## Dirección del producto
 
-Durante mi etapa como **Gerente Técnico de Plenumsoft Energy & Sustainability**, **dirigí el desarrollo integral de HENDU y lideré al equipo responsable de su construcción**.
+Durante mi etapa como **Gerente Técnico en Plenumsoft Energy & Sustainability**, **dirigí el desarrollo integral de HENDU y lideré al equipo responsable de su construcción**.
 
-HENDU fue desarrollado como una plataforma de software empresarial para la **administración de información técnica y conocimiento en la industria Oil & Gas**.
+HENDU fue una plataforma empresarial orientada a organizar información técnica, conocimiento y procesos relacionados con los activos de la industria **Oil & Gas**.
 
-## Stack tecnológico utilizado
+## Tecnología utilizada
 
-El desarrollo se realizó sobre **ASP.NET MVC, C#/.NET, Entity Framework y PostgreSQL + PostGIS**, con infraestructura de despliegue en **Microsoft Azure**. La compañía era **Microsoft Partner** durante ese período.
+| Componente | Tecnología |
+| --- | --- |
+| Aplicación web | **ASP.NET MVC · C#/.NET** |
+| Acceso a datos | **Entity Framework** |
+| Datos y capacidades geoespaciales | **PostgreSQL · PostGIS** |
+| Infraestructura | **Microsoft Azure** |
 
-Estas tecnologías y el despliegue en Azure corresponden a mi experiencia directa en el proyecto. El folleto comercial histórico muestra referencias visuales a proveedores de infraestructura, pero **no lo utilizo para inferir ni modificar el dato confirmado sobre Azure**.
+Plenumsoft Energy & Sustainability era **Microsoft Partner** durante esta etapa.
 
-## Funcionalidad del producto
+## Plataforma base
 
-El folleto comercial presenta:
+El producto se estructuraba alrededor de capacidades complementarias:
 
-- Ubicación geográfica de activos y pozos.
-- Sistema de administración de información.
-- Administración de conocimiento.
-- Sistema de catálogos y configuración.
-- Recordatorios y calendario.
-- Experiencia multiusuario y multiplataforma.
+- **GIS:** ubicación y consulta georreferenciada de áreas, campos, pozos y activos; búsquedas por distintos criterios.
+- **Archivos:** organización de documentos vinculados a activos; carga y administración de archivos y carpetas.
+- **Catálogos:** administración de áreas, campos, contratos, pozos y usuarios.
+- **Calendario:** actividades, recordatorios y notas.
+- **Dashboard:** visualización de indicadores operativos mediante tableros.
 
-La documentación comercial también enumera los **Power Packs** C-PROD, C-PERF, SASISOPA, WELLDONE y NAVIC, orientados a procesos regulatorios y operativos. No afirmo que cada módulo estuviera desplegado o vendido: el documento consultado solamente acredita que se promocionaba dentro de la oferta.
+## Evolución modular
+
+HENDU fue diseñado como una plataforma ampliable mediante componentes especializados llamados **Power Packs**.
+
+**C-PROD** incorporó funcionalidades para la configuración de periodos de reporte, captura de producción diaria y administración de reportes de producción. Dentro de la oferta tecnológica también se contemplaban **C-PERF**, **SASISOPA**, **WELLDONE** y **NAVIC**, orientados a procesos específicos de la industria.
+
+**Regulation System SASISOPA** fue desarrollado como **producto independiente de HENDU**, con capacidad de intercambio de información entre ambos sistemas; no debe confundirse con la denominación de SASISOPA dentro de la oferta de módulos.
 
 ## Mi contribución
 
-Fui responsable de **dirigir el producto y el equipo de desarrollo**. Por ello presento HENDU como un ejemplo de **dirección integral de desarrollo empresarial**, no como una aplicación construida individualmente por mí.
+Dirigí el producto y al equipo de desarrollo desde la Gerencia Técnica. Esta experiencia reunió **liderazgo de ingeniería, desarrollo empresarial, información geoespacial, integración de tecnologías y coordinación de soluciones para la industria energética**.
 
-## Base documental
-
-- Folleto comercial histórico: `hendu_brochure_es.pdf` (dos páginas), compartido para documentar esta experiencia.
-- Mi testimonio profesional sobre el equipo, el rol de Gerente Técnico y el stack tecnológico utilizado.
-
-El folleto se utiliza como **fuente de información**, pero no se redistribuye en este repositorio ni se incorporan capturas sin verificar sus permisos de reutilización.
-
-## Límites de este caso de estudio
-
-- No publico código, esquemas de base de datos, secretos, infraestructura interna ni información de clientes.
-- No atribuyo métricas de adopción, ingresos o ahorro que no se hayan documentado.
-- No doy por probada la implementación completa de todos los Power Packs únicamente por su presencia en material promocional.
-- No afirmo que el producto o su sitio continúen operativos en la actualidad.
-
-La titularidad del software y de los materiales comerciales originales corresponde a sus respectivos titulares.
+El presente caso de estudio documenta esta trayectoria profesional sin publicar el código fuente ni información de clientes.
