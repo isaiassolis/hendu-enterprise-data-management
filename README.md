@@ -57,7 +57,7 @@ La propuesta comercial de HENDU incluía módulos especializados —denominados 
 | :--- | :--- |
 | Plataforma de aplicación | **ASP.NET MVC / C# / .NET** |
 | Acceso y persistencia de datos | **Entity Framework** |
-| Base de datos | **Microsoft PostgreSQL + PostGIS** |
+| Base de datos | **PostgreSQL con PostGIS** |
 | Infraestructura de despliegue | **Microsoft Azure** |
 | Ecosistema de desarrollo | Organización **Microsoft Partner** durante el proyecto |
 
