@@ -8,7 +8,7 @@ HENDU fue desarrollado como una plataforma de software empresarial para la **adm
 
 ## Stack tecnológico utilizado
 
-El desarrollo se realizó sobre **ASP.NET MVC, C#/.NET, Entity Framework y SQL Server**, con infraestructura de despliegue en **Microsoft Azure**. La compañía era **Microsoft Partner** durante ese período.
+El desarrollo se realizó sobre **ASP.NET MVC, C#/.NET, Entity Framework y PostgreSQL + PostGIS**, con infraestructura de despliegue en **Microsoft Azure**. La compañía era **Microsoft Partner** durante ese período.
 
 Estas tecnologías y el despliegue en Azure corresponden a mi experiencia directa en el proyecto. El folleto comercial histórico muestra referencias visuales a proveedores de infraestructura, pero **no lo utilizo para inferir ni modificar el dato confirmado sobre Azure**.
 
