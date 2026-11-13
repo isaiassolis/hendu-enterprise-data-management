@@ -10,102 +10,116 @@
   <img src="https://img.shields.io/badge/Microsoft-Azure-087F8C?style=for-the-badge" alt="Microsoft Azure" />
 </p>
 
-# HENDU — Plataforma empresarial de administración de información y conocimiento
+# HENDU — Plataforma empresarial de información y conocimiento para Oil & Gas
 
-**Dirección integral de producto y equipo de desarrollo · Plenumsoft Energy & Sustainability**
+**Dirección de producto y liderazgo del equipo de ingeniería · Plenumsoft Energy & Sustainability**
 
-Durante mi etapa como **Gerente Técnico** de Plenumsoft Energy & Sustainability, **dirigí el desarrollo integral de HENDU y al equipo encargado de construirlo**. HENDU fue concebido como una plataforma empresarial para centralizar y administrar información técnica, conocimiento y procesos especializados de la industria **Oil & Gas**.
+Durante mi etapa como **Gerente Técnico en Plenumsoft Energy & Sustainability**, dirigí el desarrollo integral de **HENDU** y al equipo de ingeniería responsable de construirlo.
 
-Construimos HENDU con **ASP.NET MVC, C#/.NET y Entity Framework**, utilizando **PostgreSQL con PostGIS** para la gestión de datos y capacidades geoespaciales, con despliegue en **Microsoft Azure**. En esa etapa, Plenumsoft era **Microsoft Partner**.
+Creamos una plataforma empresarial para organizar información técnica y conocimiento de la industria de hidrocarburos. HENDU reunía en un mismo entorno herramientas para consultar activos y pozos, administrar documentos, mantener catálogos operativos y dar seguimiento a actividades, con la posibilidad de ampliar sus funciones mediante módulos especializados.
 
-## La necesidad empresarial
+## El desafío
 
-En la industria energética, la información de activos, pozos, operaciones y obligaciones regulatorias puede encontrarse distribuida entre diferentes equipos y sistemas. HENDU buscó facilitar su **consulta, organización y administración en un entorno compartido**, además de permitir que funciones especializadas complementaran el núcleo de la plataforma.
+Las operaciones de la industria energética generan información técnica distribuida entre pozos, campos, instalaciones, documentos y distintos equipos de trabajo. Consultarla y mantenerla organizada exige conectar los datos con los activos y procesos a los que pertenecen.
 
-## 📸 Evidencia visual del producto
+Con HENDU buscamos facilitar ese trabajo: **centralizar la información, hacerla accesible desde una interfaz común y aprovechar su contexto geográfico y operativo**.
 
-Las siguientes imágenes corresponden a interfaces históricas de HENDU y se incluyen para documentar las capacidades del producto. No constituyen una demostración activa ni implican disponibilidad del software.
+## La plataforma
 
+Organizamos HENDU alrededor de un conjunto de herramientas complementarias:
 
-### Visualización geoespacial (GIS)
-![HENDU — visualización GIS de pozos y estado de captura](assets/screenshots/hendu1.png)
-*Vista cartográfica de activos con filtros de búsqueda e indicadores operativos.*
-
-### Acceso a la plataforma
-![HENDU — pantalla histórica de acceso](assets/screenshots/hendu2.png)
-*Presentación visual del acceso a HENDU en su interfaz histórica.*
-
-### Gestión documental vinculada a pozos
-![HENDU — administración de archivos asociados a pozos](assets/screenshots/hendu3.png)
-*Interfaz de consulta y administración de documentos vinculados con información técnica de pozos.*
-
-> **Nota:** Material visual histórico compartido con fines de portafolio profesional. HENDU y sus materiales originales son propiedad de Plenumsoft Energy & Sustainability.
-
-## El producto
-
-HENDU integraba herramientas para administrar información técnica y conocimiento en la industria **Oil & Gas**. Entre sus capacidades se encontraban:
-
-| Capacidad | Aplicación en HENDU |
+| Componente | Funcionalidad |
 | :--- | :--- |
-| **Gestión de información** | Consulta, almacenamiento y organización de información técnica |
-| **Localización de activos** | Ubicación geográfica de activos y pozos |
-| **Catálogos y configuración** | Administración de información de referencia y parámetros |
-| **Recordatorios y calendario** | Seguimiento de actividades y fechas relevantes |
-| **Acceso multiusuario** | Uso compartido de la plataforma por diferentes perfiles de usuarios |
-| **Diseño multiplataforma** | Acceso a la solución desde distintos dispositivos |
+| **GIS** | Consulta georreferenciada de áreas, campos, pozos y activos; búsqueda mediante filtros. |
+| **Archivos** | Carga, consulta y organización de documentos vinculados a activos. |
+| **Catálogos** | Administración de datos de referencia, pozos, campos, áreas y otros elementos operativos. |
+| **Calendario** | Seguimiento de actividades, recordatorios y notas. |
+| **Dashboard** | Visualización de información e indicadores mediante tableros. |
+| **Usuarios** | Acceso compartido para diferentes perfiles de trabajo. |
 
-## Ecosistema modular: Power Packs
+### Capturas de HENDU
 
-La arquitectura funcional de HENDU contemplaba **Power Packs**, extensiones especializadas para procesos operativos y regulatorios:
+Estas pantallas muestran parte de la interfaz que desarrollamos.
 
-| Módulo | Función |
+#### Visualización geográfica de activos
+![Vista GIS de HENDU con pozos y filtros de consulta](assets/screenshots/hendu1.png)
+
+*Consulta de pozos y activos desde una vista georreferenciada.*
+
+#### Acceso a la plataforma
+![Pantalla de acceso de HENDU](assets/screenshots/hendu2.png)
+
+*Interfaz de entrada al sistema.*
+
+#### Administración documental
+![Administración de archivos asociados a pozos en HENDU](assets/screenshots/hendu3.png)
+
+*Consulta y organización de archivos vinculados con la información técnica de pozos.*
+
+## Una plataforma modular: Power Packs
+
+Diseñamos HENDU para extender su funcionalidad con componentes especializados llamados **Power Packs**.
+
+Uno de ellos fue **C-PROD**, orientado a la administración de información de producción y la preparación de reportes para la **Comisión Nacional de Hidrocarburos (CNH)**. Incluía herramientas para configurar periodos de entrega, registrar producción diaria y generar reportes.
+
+La línea de soluciones también contemplaba otros Power Packs:
+
+| Power Pack | Área de aplicación |
 | :--- | :--- |
-| **C-PROD** | Apoyo al cumplimiento de entregas de reportes de producción a la **CNH** |
-| **C-PERF** | Apoyo al cumplimiento de entregas de reportes de perforación a la **CNH** |
-| **SASISOPA** | Procesos relacionados con normativa **ASEA/CRE** |
-| **WELLDONE** | Análisis de tiempos no productivos en reparaciones de pozos |
-| **NAVIC** | Monitoreo de embarcaciones en tiempo real |
+| **C-PERF** | Información y reportes de perforación. |
+| **SASISOPA** | Procesos de seguridad industrial y protección ambiental. |
+| **WELLDONE** | Análisis de tiempos no productivos en trabajos sobre pozos. |
+| **NAVIC** | Monitoreo de embarcaciones. |
 
-**C-PROD** contaba con funcionalidades de configuración de periodos, captura diaria de producción y generación de reportes. Los demás Power Packs formaban parte de la línea de soluciones presentadas por Plenumsoft, con distintas etapas de desarrollo.
+Estos componentes formaban parte de la evolución y oferta modular del producto, en distintas etapas de desarrollo.
 
-## Tecnologías confirmadas
+**Regulation System SASISOPA** también se desarrolló como un **producto independiente**, capaz de intercambiar información con HENDU. [Conocer Regulation System SASISOPA](https://github.com/isaiassolis/regulation-system-sasisopa).
 
-| Capa o ámbito | Tecnología |
+## Tecnología
+
+Construimos HENDU combinando tecnologías de desarrollo web empresarial, persistencia de datos, información geoespacial e infraestructura en la nube.
+
+| Componente | Tecnología |
 | :--- | :--- |
-| Plataforma de aplicación | **ASP.NET MVC / C# / .NET** |
-| Acceso y persistencia de datos | **Entity Framework** |
-| Base de datos | **PostgreSQL con PostGIS** |
-| Infraestructura de despliegue | **Microsoft Azure** |
-| Ecosistema de desarrollo | Organización **Microsoft Partner** durante el proyecto |
+| Aplicación web | **ASP.NET MVC · C# · .NET** |
+| Acceso a datos | **Entity Framework** |
+| Base de datos | **PostgreSQL** |
+| Información geoespacial | **PostGIS** |
+| Infraestructura | **Microsoft Azure** |
 
-## Visión funcional de alto nivel
+Durante esta etapa, Plenumsoft Energy & Sustainability era **Microsoft Partner**.
+
+## Mi participación
+
+Como **Gerente Técnico**, asumí la **dirección integral del desarrollo de HENDU** y el **liderazgo del equipo de ingeniería**.
+
+Mi responsabilidad fue conducir la construcción del producto desde el ámbito tecnológico, coordinar el trabajo del equipo y mantener una visión integral de la plataforma y sus módulos.
+
+HENDU representa una parte importante de mi experiencia en **dirección de productos de software, liderazgo técnico, desarrollo empresarial e integración de información geoespacial**.
+
+## Arquitectura funcional
 
 ```mermaid
 flowchart TB
-    U[Equipos y usuarios de la industria energética] --> H[HENDU: información y conocimiento]
-    H --> A[Activos y pozos]
-    H --> I[Información técnica]
-    H --> C[Catálogos, calendarios y configuración]
-    H -. Extensiones especializadas .-> P[Power Packs]
-    P --> R[Reportes y cumplimiento]
-    P --> O[Análisis y monitoreo operacional]
+    U[Usuarios y equipos de trabajo] --> H[HENDU]
+    H --> G[GIS y activos]
+    H --> D[Archivos y documentos]
+    H --> C[Catálogos y calendario]
+    H --> T[Tableros]
+    H --> P[Power Packs]
+    P --> R[Producción y reportes]
+    P --> O[Procesos industriales especializados]
 ```
 
-*Vista funcional de los principales componentes del producto.*
+*Vista general de las funciones de la plataforma.*
 
-## Mi responsabilidad
+## Sobre el proyecto
 
-Como **Gerente Técnico**, fui responsable de la **dirección integral del desarrollo del producto** y del **liderazgo del equipo de ingeniería**. Mi trabajo consistió en conducir la construcción de una plataforma empresarial modular y coordinar la entrega de la solución desde el ámbito tecnológico.
+HENDU es un producto de **Plenumsoft Energy & Sustainability**. Este repositorio presenta el trabajo que dirigí y las características principales de la plataforma, sin publicar el código fuente ni información de clientes.
 
-HENDU representa una etapa importante de mi experiencia en **gestión de productos tecnológicos, coordinación de equipos, software empresarial y soluciones para una industria especializada**.
-
-[Conocer más sobre la arquitectura funcional y mi participación](docs/project-context.md).
-
-## Propiedad intelectual
-
-HENDU fue un producto de **Plenumsoft Energy & Sustainability**. La titularidad del software, su marca y los materiales originales corresponde a sus respectivos propietarios. Este repositorio presenta mi participación profesional y la visión funcional del producto, sin incluir su código fuente.
+[Más detalles sobre la plataforma y mi participación](docs/project-context.md).
 
 ---
 
-<p align="center"><strong>Dirección de producto, liderazgo de equipos y desarrollo empresarial sobre tecnología Microsoft.</strong></p>
-<p align="center"><a href="https://github.com/isaiassolis">Isaías Solís</a> · Portafolio profesional</p>
+<p align="center"><strong>Dirección tecnológica · Liderazgo de equipos · Desarrollo de software empresarial</strong></p>
+<p align="center"><a href="https://github.com/isaiassolis">Volver a mi portafolio profesional</a></p>
