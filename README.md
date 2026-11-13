@@ -18,7 +18,7 @@ Durante mi etapa como **Gerente Técnico** de Plenumsoft Energy & Sustainability
 
 Construimos HENDU con **ASP.NET MVC, C#/.NET y Entity Framework**, utilizando **PostgreSQL con PostGIS** para la gestión de datos y capacidades geoespaciales, con despliegue en **Microsoft Azure**. En esa etapa, Plenumsoft era **Microsoft Partner**.
 
-## 🎯 La necesidad empresarial
+## La necesidad empresarial
 
 En la industria energética, la información de activos, pozos, operaciones y obligaciones regulatorias puede encontrarse distribuida entre diferentes equipos y sistemas. HENDU buscó facilitar su **consulta, organización y administración en un entorno compartido**, además de permitir que funciones especializadas complementaran el núcleo de la plataforma.
 
@@ -41,7 +41,7 @@ Las siguientes imágenes corresponden a interfaces históricas de HENDU y se inc
 
 > **Nota:** Material visual histórico compartido con fines de portafolio profesional. HENDU y sus materiales originales son propiedad de Plenumsoft Energy & Sustainability.
 
-## 🧩 El producto
+## El producto
 
 HENDU integraba herramientas para administrar información técnica y conocimiento en la industria **Oil & Gas**. Entre sus capacidades se encontraban:
 
@@ -54,7 +54,7 @@ HENDU integraba herramientas para administrar información técnica y conocimien
 | **Acceso multiusuario** | Uso compartido de la plataforma por diferentes perfiles de usuarios |
 | **Diseño multiplataforma** | Acceso a la solución desde distintos dispositivos |
 
-## 🧱 Ecosistema modular: Power Packs
+## Ecosistema modular: Power Packs
 
 La arquitectura funcional de HENDU contemplaba **Power Packs**, extensiones especializadas para procesos operativos y regulatorios:
 
@@ -68,7 +68,7 @@ La arquitectura funcional de HENDU contemplaba **Power Packs**, extensiones espe
 
 **C-PROD** contaba con funcionalidades de configuración de periodos, captura diaria de producción y generación de reportes. Los demás Power Packs formaban parte de la línea de soluciones presentadas por Plenumsoft, con distintas etapas de desarrollo.
 
-## 🛠️ Tecnologías confirmadas
+## Tecnologías confirmadas
 
 | Capa o ámbito | Tecnología |
 | :--- | :--- |
@@ -78,7 +78,7 @@ La arquitectura funcional de HENDU contemplaba **Power Packs**, extensiones espe
 | Infraestructura de despliegue | **Microsoft Azure** |
 | Ecosistema de desarrollo | Organización **Microsoft Partner** durante el proyecto |
 
-## 🔄 Visión funcional de alto nivel
+## Visión funcional de alto nivel
 
 ```mermaid
 flowchart TB
@@ -93,7 +93,7 @@ flowchart TB
 
 *Vista funcional de los principales componentes del producto.*
 
-## 👤 Mi responsabilidad
+## Mi responsabilidad
 
 Como **Gerente Técnico**, fui responsable de la **dirección integral del desarrollo del producto** y del **liderazgo del equipo de ingeniería**. Mi trabajo consistió en conducir la construcción de una plataforma empresarial modular y coordinar la entrega de la solución desde el ámbito tecnológico.
 
@@ -101,7 +101,7 @@ HENDU representa una etapa importante de mi experiencia en **gestión de product
 
 [Conocer más sobre la arquitectura funcional y mi participación](docs/project-context.md).
 
-## 🔒 Propiedad intelectual
+## Propiedad intelectual
 
 HENDU fue un producto de **Plenumsoft Energy & Sustainability**. La titularidad del software, su marca y los materiales originales corresponde a sus respectivos propietarios. Este repositorio presenta mi participación profesional y la visión funcional del producto, sin incluir su código fuente.
 
